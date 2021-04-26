@@ -12,7 +12,7 @@ const Sider = (props) => {
             오전 11:00
           </span>
         </div>
-        <div className="title">
+        <div className="title relative">
           <span className="main text-4xl font-bold flex items-center justify-start mb-4">
             <span className="text-blue-600">가정</span>예배순서
           </span>
@@ -22,6 +22,14 @@ const Sider = (props) => {
         </div>
       </div>
       <div className="bg-white flex-1 w-full p-8 divide-y">
+        <div className="instructions p-8">
+          <div className="title font-bold text-blue-800 text-lg">
+            예배 안내
+          </div>
+          <div className="content text-base">
+            아래 순서를 클릭하여 예배 내용을 확인하세요.
+          </div>
+        </div>
         {titles?.map((title, index)=>{
           const subtitle = subtitles[index]
           return (
