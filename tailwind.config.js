@@ -20,6 +20,7 @@ module.exports = {
       '8xl': '7.2rem',
     },
     maxWidth:{
+      '7xl': '80rem',
       '8xl': '120rem',
     },
     extend: {
@@ -29,6 +30,9 @@ module.exports = {
       width: {
         'sider': '40rem',
         'content': '80rem',
+      },
+      height: {
+        'youtube': 'calc(72rem * 340 / 560)',
       },
       maxWidth: {
         '8xl': '120rem',
