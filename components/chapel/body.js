@@ -278,9 +278,9 @@ const chapelItems = {
   ]
 }
 
-const Item = ({title, subtitle, children}) => {
+const Item = ({title, subtitle, children, index}) => {
   return (
-    <div className="item shadow-lg w-full max-w-7xl p-8 md:p-16 text-base bg-white mb-8 md:mb-16">
+    <div id={`chapel-${index}`} className="item shadow-lg w-full max-w-7xl p-8 md:p-16 text-base bg-white mb-8 md:mb-16">
       <div className="title text-3xl font-bold mb-2 md:text-5xl">
         {title}
       </div>
@@ -304,7 +304,7 @@ const Items = ({chapelItems}) => {
         const subtitle = subtitles[index]
         const body = bodies[index]
         const {meta, types, content} = body
-        const itemProps = {title, subtitle}
+        const itemProps = {title, subtitle, index}
         return (
         <Item key={`chapel-item-${index}`} {...itemProps}>
           {meta && 
@@ -353,7 +353,7 @@ const Items = ({chapelItems}) => {
 
 const Body = () => {
   return (
-    <div className="flex flex-1 flex-col justify-start md:p-16 items-center bg-blue-50 overflow-y-auto">
+    <div className="body flex flex-1 flex-col justify-start md:p-16 items-center bg-indigo-50 overflow-y-auto">
       <div className="md:hidden banner p-8 w-full">
         <div className="header flex items-center justify-between font-medium mb-8">
           <span className="text-sm">
