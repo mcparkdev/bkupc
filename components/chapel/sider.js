@@ -27,7 +27,10 @@ const Sider = (props) => {
             예배 안내
           </div>
           <div className="content text-base">
-            아래 순서를 클릭하여 예배 내용을 확인하세요.
+            {`아래 순서를 클릭하여 예배 내용을 확인하세요.
+              
+              모바일: 우측하단에 있는 버튼을 활용하세요.
+            `}
           </div>
         </div>
         {titles?.map((title, index)=>{
