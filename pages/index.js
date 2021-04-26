@@ -6,12 +6,12 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>보고타한인연합장료교회</title>
+        <title>보고타한인연합장로교회</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="p-16 m:p-0 h-screen w-screen flex justify-center items-start md:items-center flex-col">
         <div className="text-2xl md:text-4xl mb-8">
-          보고타한인연합장료교회
+          보고타한인연합장로교회
         </div>
         <div className="text-4xl md:text-8xl font-bold flex items-start md:items-center justify-center flex-col mb-12 md:mb-16">
           <span className="flex flex-row">
