@@ -13,7 +13,7 @@ const Chapel = () => {
       <Sider {...siderProps} />
       <Body />
       <button 
-        className="md:hidden quickbutton absolute bottom-8 right-8 h-24 w-24 bg-blue-600 flex justify-center items-center rounded-full focus:bg-blue-700 focus:outline-none transition"
+        className="md:hidden quickbutton fixed bottom-8 right-8 h-24 w-24 bg-blue-600 flex justify-center items-center rounded-full focus:bg-blue-700 focus:outline-none transition"
         onClick={toggleSider}
       >
         {showSider ? 
