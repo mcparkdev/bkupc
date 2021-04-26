@@ -2,7 +2,7 @@ const titles = ["예배기원", "사도신경", "찬송 : 14장", "기도", "성
 const subtitles = ["인도자", "다함께", "다함께", "가족 중에서", "인도자", "가족 중에서", "다함께", "다함께"]
 const Sider = (props) => {
   return (
-    <div className={`sider absolute inset-0 md:relative ${!props.showSider && 'hidden'} md:flex md:w-sider h-screen bg-blue-50 flex-col`}>
+    <div className={`sider absolute inset-0 md:relative ${!props.showSider && 'hidden'} md:flex md:w-sider h-screen bg-blue-50 flex-col overflow-y-auto`}>
       <div className="banner p-16 w-full">
         <div className="header flex items-center justify-between font-medium mb-8">
           <span className="text-sm">
