@@ -29,6 +29,7 @@ const Sider = (props) => {
               key={`chapel-sider-item-${index}-${title}`}
               className="item text-base flex justify-between items-center p-8 hover:bg-blue-100 transition cursor-pointer"
               href={`#chapel-${index}`}
+              onClick={props.toggleSider}
             >
               <div className="font-bold">
                 {title}

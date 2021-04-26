@@ -7,7 +7,7 @@ const Chapel = () => {
   const toggleSider = () => {
     setShowSider(prevShowSider => !prevShowSider)
   }
-  const siderProps = {showSider, setShowSider}
+  const siderProps = {showSider, setShowSider, toggleSider}
   return (
     <div className="w-screen h-screen flex">
       <Sider {...siderProps} />
