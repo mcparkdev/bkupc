@@ -21,7 +21,7 @@ const Sider = (props) => {
           </span>
         </div>
       </div>
-      <div className="bg-white flex-1 w-full p-8 divide-y">
+      <div className="bg-white flex-1 w-full p-8 divide-y pb-32">
         <div className="instructions p-8">
           <div className="title font-bold text-blue-800 text-lg">
             예배 안내
