@@ -3,7 +3,7 @@ import Body from '../components/chapel/body'
 import Sider from '../components/chapel/sider'
 
 const chapelItems = {
-  titles: ["예배기원", "사도신경", "찬송 : 14장", "기도", "성경봉독 : 고린도전서 1:10~17", "든는 찬양", "설교 : 교회와 신방 = 증거", "결단찬송", "주기도문"],
+  titles: ["예배기원", "사도신경", "찬송 : 15장", "기도", "성경봉독 : 고린도전서 1:18~31", "든는 찬양", "설교 : 교회와 신방 = 증거", "결단찬송", "주기도문"],
   subtitles: ["인도자", "다함께", "다함께", "가족 중에서", "인도자", "함께 듣기", "가족 중에서", "다함께", "다함께"],
   bodies: [
     {
@@ -82,7 +82,7 @@ const chapelItems = {
     },
     {
       meta: `일시적으로 지난 달 영상 넣었습니다. 촬영 뒤 바꿀 예정입니다.
-      
+
       영상을 클릭해서 온 가족이 함께 듣습니다.
       `,
       types: ["youtube"],
@@ -92,7 +92,7 @@ const chapelItems = {
     {
       types: ["youtube", "img"],
       title: ["새 찬송가 380장", "악보"],
-      content: ["https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F99FB17415D5E4D9011"]
+      content: ["3tISsG-IGv4","https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F99FB17415D5E4D9011"]
     },
     {
       meta: "온 가족이 함께 읽는 기도를 드립니다.",
