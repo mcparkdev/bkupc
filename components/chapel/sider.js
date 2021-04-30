@@ -1,6 +1,5 @@
-const titles = ["예배기원", "사도신경", "찬송 : 14장", "기도", "성경봉독 : 고린도전서 1:10~17", "설교 : 교회와 신방 = 증거", "결단찬송 : 91장", "주기도문"]
-const subtitles = ["인도자", "다함께", "다함께", "가족 중에서", "인도자", "가족 중에서", "다함께", "다함께"]
 const Sider = (props) => {
+  const {titles, subtitles} = props
   return (
     <div className={`sider absolute inset-0 md:relative ${!props.showSider && 'hidden'} md:flex md:w-sider h-screen bg-blue-50 flex-col overflow-y-auto`}>
       <div className="banner p-16 w-full">
