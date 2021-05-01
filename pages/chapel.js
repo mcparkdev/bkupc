@@ -100,13 +100,11 @@ const chapelItems = {
       ]
     },
     {
-      meta: `일시적으로 지난 달 영상 넣었습니다. 촬영 뒤 바꿀 예정입니다.
-
-      영상을 클릭해서 온 가족이 함께 듣습니다.
+      meta: `영상을 클릭해서 온 가족이 설교를 함께 듣습니다.
       `,
       types: ["youtube"],
       title: ["교회와 신앙=십자가"],
-      content: ["ApA-NpCodls"]
+      content: ["9wo3duDyGCg"]
     },
     {
       types: ["youtube", "img"],

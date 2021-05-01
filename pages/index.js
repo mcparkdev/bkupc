@@ -1,9 +1,10 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import { motion } from 'framer-motion'
 
 export default function Home() { 
   return (
-    <div>
+    <motion.div exit={{opacity:0}}>
       <Head>
         <title>보고타한인연합장로교회</title>
         <link rel="icon" href="/favicon.ico" />
@@ -28,6 +29,6 @@ export default function Home() {
           </button>
         </Link>
       </div>
-    </div>
+    </motion.div>
   )
 }
