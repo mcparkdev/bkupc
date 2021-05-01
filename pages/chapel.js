@@ -105,7 +105,7 @@ const chapelItems = {
       영상을 클릭해서 온 가족이 함께 듣습니다.
       `,
       types: ["youtube"],
-      title: ["교회아 신앙=십자가"],
+      title: ["교회와 신앙=십자가"],
       content: ["ApA-NpCodls"]
     },
     {
