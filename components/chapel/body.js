@@ -55,6 +55,9 @@ const Items = ({chapelItems}) => {
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowFullScreen
                     />
+                    <div className="text-base my-4 font-regular">
+                      영상에 재생 안 될 경우, <a className="text-blue-600" href={`https://youtu.be/${bodyContent}`} target="_blank">여기를 클랙해주세요</a>.
+                    </div>
                   </div>
                 }
                 {bodyType === "img" && 
