@@ -1,12 +1,13 @@
 const Sider = (props) => {
   const {titles, subtitles} = props
   return (
-    <div 
-      // className={`sider absolute inset-0 
-      // // md:relative 
-      // ${!props.showSider && 'hidden'}
-      // md:flex md:w-sider h-screen bg-blue-50 flex-col overflow-y-auto`}
-      className={`sider absolute w-screen transform md:transform-none translate-x-0 md:relative
+    <div
+      // className={`sider absolute w-screen
+      // transform md:transform-none translate-x-0 md:relative
+      // ${!props.showSider && '-translate-x-full'}
+      // md:flex md:w-sider h-screen transition-transform bg-blue-50 flex-col overflow-y-auto`}
+      className={`sider absolute w-screen
+      transform md:transform-none translate-x-0 md:relative
       ${!props.showSider && '-translate-x-full'}
       md:flex md:w-sider h-screen transition-transform bg-blue-50 flex-col overflow-y-auto`}
     >
