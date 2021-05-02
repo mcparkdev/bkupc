@@ -36,9 +36,10 @@ export default function Home() {
     <motion.div initial='initial' animate='animate' exit={{opacity:0}}>
       <Head>
         <title>보고타한인연합장로교회</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/bkupc_logo_small.png" />
       </Head>
       <motion.div variants={stagger} className="p-16 m:p-0 h-screen w-screen flex justify-center items-start md:items-center flex-col">
+        <motion.img src="/bkupc_logo_small.png" variants={fadeInUp} className="w-48 mb-12"/>
         <motion.div variants={fadeInUp} className="text-2xl md:text-4xl mb-8">
           보고타한인연합장로교회
         </motion.div>

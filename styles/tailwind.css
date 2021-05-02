@@ -16,6 +16,7 @@ html ::-webkit-scrollbar {
   border-radius: 1rem;
   height: 0.4rem;
   width: 0.4rem;
+  scroll-behavior: smooth;
 }
 
 html ::-webkit-scrollbar-thumb {

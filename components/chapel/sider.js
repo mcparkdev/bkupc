@@ -17,7 +17,7 @@ const Sider = (props) => {
             주일예배
           </span>
           <span className="text-sm">
-            오전 11:00
+            5월 2일 오전 11:00
           </span>
         </div>
         <div className="title relative">
@@ -29,14 +29,13 @@ const Sider = (props) => {
           </span>
         </div>
       </div>
-      <div className="bg-white flex-1 w-full p-8 divide-y pb-32">
+      <div className="main-content bg-white flex-1 w-full p-8 divide-y">
         <div className="instructions p-8">
           <div className="title font-bold text-blue-800 text-lg">
             예배 안내
           </div>
-          <div className="content text-base">
+          <div className="content text-base whitespace-pre-line">
             {`아래 순서를 클릭하여 예배 내용을 확인하세요.
-              
               모바일: 우측하단에 있는 버튼을 활용하세요.
             `}
           </div>
@@ -46,7 +45,7 @@ const Sider = (props) => {
           return (
             <a
               key={`chapel-sider-item-${index}-${title}`}
-              className="item text-base flex justify-between items-center p-8 md:hover:bg-blue-100 transition cursor-pointer"
+              className="item text-base flex justify-between items-center p-8 focus:bg-blue-100 md:hover:bg-blue-100 transition cursor-pointer"
               href={`#chapel-${index}`}
               onClick={props.toggleSider}
             >
@@ -59,6 +58,10 @@ const Sider = (props) => {
             </a>
           )
         })}
+        <div className="footer flex flex-col w-full justify-center items-center text-base ">
+          <img src="/bkupc_logo_small.png" alt="logo" className="w-24 mt-12 mb-4 select-none"/>
+          보고타한인연합장로교회
+        </div>
       </div>
     </div>
   )
