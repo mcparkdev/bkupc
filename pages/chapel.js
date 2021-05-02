@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Body from '../components/chapel/body'
 import Sider from '../components/chapel/sider'
 import { motion } from 'framer-motion'
+import Head from 'next/head'
 const chapelItems = {
   titles: ["예배기원", "사도신경", "찬송 : 15장", "기도", "성경봉독 : 고린도전서 1:18~31", "듣는 찬양: 천번을 불러도", "설교 : 교회와 신앙=십자가", "결단찬송: 380장", "주기도문"],
   subtitles: ["인도자", "다함께", "다함께", "가족 중에서", "인도자", "함께 듣기", "가족 중에서", "다함께", "다함께"],
@@ -142,6 +143,10 @@ const Chapel = () => {
 
   return (
     <motion.div initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}} className="w-screen h-screen flex">
+      <Head>
+        <title>5월 2일 가정예배</title>
+        <link rel="icon" href="/bkupc_logo_small.png" />
+      </Head>
       <Sider {...siderProps} />
       <Body chapelItems={chapelItems} />
       <button 
